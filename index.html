@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Aditya Kumar - Aspiring AIML Engineer & Web Developer</title>
+  <meta name="title" content="Aditya Kumar - Aspiring AIML Engineer | Web Developer | UI/UX Designer">
+  <meta name="description" content="Portfolio of Aditya Kumar - Aspiring AIML Engineer, Web Developer & UI/UX Designer">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Aditya <br> Kumar</h1>
+
+            <p class="hero-subtitle">
+              Aspiring AIML Engineer | Web Developer | UI/UX Designer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-banner.png" width="700" height="700" alt="Aditya Kumar" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I’m Aditya Kumar. I am an aspiring AIML Engineer, Web Developer, and UI/UX Designer. I dream of making
+              the world a better place by creating captivating and intelligent products.
+            </p>
+
+            <a href="#" class="btn has-before">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" id="services" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Services That I Provide
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Services</h2>
+            </div>
+
+            <p class="section-text">
+              I provide a comprehensive suite of digital services. From crafting responsive, high-performance websites
+              and intuitive user interfaces to developing intelligent AI models, I bring a holistic and creative
+              approach to every project to help you succeed.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Web Development</h3>
+
+                  <p class="card-text">
+                    Building responsive, high-performance websites and web applications using modern technologies like
+                    React and Node.js.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#portfolio" class="layer-link" aria-label="More about my web development service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-palette-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">UI/UX Design</h3>
+
+                  <p class="card-text">
+                    Creating user-centered designs with Figma and Canva that ensure seamless and engaging user
+                    experiences.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#portfolio" class="layer-link" aria-label="More about my design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">AI/ML Solutions</h3>
+
+                  <p class="card-text">
+                    Leveraging Python and ML algorithms to build intelligent systems and data-driven solutions.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#portfolio" class="layer-link" aria-label="More about my AI/ML service"></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">I Make The Future</p>
+
+          <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                I possess a diverse set of skills ranging from frontend design to backend logic and AI model
+                development.
+              </p>
+
+              <p class="section-text">
+                <strong>Languages:</strong> Python, Java, C<br>
+                <strong>Frontend:</strong> HTML, CSS, JavaScript, React<br>
+                <strong>Backend:</strong> Node.js, MySQL, MongoDB<br>
+                <strong>Design:</strong> Figma, Canva
+              </p>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web Development</p>
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">UI/UX Design</p>
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Python & AI/ML</p>
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Backend (Node/DB)</p>
+                    <data class="progress-value" value="75">75%</data>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 75%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" id="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Our Works</p>
+
+            <h2 class="h2 section-title">Portfolio</h2>
+          </div>
+
+          <p class="section-text">
+            Explore a collection of my recent projects, showcasing my expertise in web development, UI/UX design, and
+            AI/ML solutions. Each project reflects my passion for creating innovative and user-centric digital
+            experiences.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Sizzle& Spice</h3>
+
+                  <p class="card-text">Website / Development</p>
+                </div>
+
+                <a href="https://sizzle-spice-restaurant.netlify.app/" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <!-- <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">MusicΦ -music Website</h3>
+
+                  <p class="card-text">Website Design</p>
+                </div>
+
+                <a href="https://musicfy-musicplayer.netlify.app/" class="layer-link"></a>
+
+              </div>
+            </li> -->
+            <!-- 
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Joker Card</h3>
+
+                  <p class="card-text">UX Design / Web App</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li> -->
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Peaky Blinders</h3>
+
+                  <p class="card-text">Website / UX Design</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Design Zoom</h3>
+
+                  <p class="card-text">Branding / Design</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Out Zone</h3>
+
+                  <p class="card-text">UX Design / Web App</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- 
+        - #TECH STACK
+      -->
+
+      <section class="section stack" aria-label="tech stack">
+        <div class="container">
+
+          <p class="section-subtitle">My Tools</p>
+
+          <h2 class="h2 section-title">Tech Stack</h2>
+
+          <ul class="stack-list">
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="HTML5">
+                <i class="devicon-html5-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="CSS3">
+                <i class="devicon-css3-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="JavaScript">
+                <i class="devicon-javascript-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="React">
+                <i class="devicon-react-original colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="Python">
+                <i class="devicon-python-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="Java">
+                <i class="devicon-java-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="C">
+                <i class="devicon-c-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="Node.js">
+                <i class="devicon-nodejs-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="MySQL">
+                <i class="devicon-mysql-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="MongoDB">
+                <i class="devicon-mongodb-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="Figma">
+                <i class="devicon-figma-plain colored"></i>
+              </div>
+            </li>
+
+            <li class="stack-item">
+              <div class="stack-card" data-tooltip="Canva">
+                <i class="devicon-canva-original colored"></i>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+  <!-- 
+        - #CONTACT
+      -->
+
+  <section class="section contact" id="contact" aria-label="contact">
+    <div class="container">
+
+      <p class="section-subtitle">Get in Touch</p>
+
+      <h2 class="h2 section-title">Contact Me</h2>
+
+      <div class="contact-wrapper">
+
+        <form action="#" class="contact-form" method="POST">
+
+          <div class="wrapper">
+            <input type="text" name="name" aria-label="name" placeholder="Name" required class="input-field">
+
+            <input type="email" name="email" aria-label="email" placeholder="Email" required class="input-field">
+          </div>
+
+          <textarea name="message" aria-label="message" placeholder="Message" required class="input-field"></textarea>
+
+          <button type="submit" class="btn has-before">
+            <span class="span">Send Message</span>
+
+            <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </form>
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <div class="item-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div>
+              <p class="item-title">Mail Me</p>
+
+              <a href="mailto:email@example.com" class="item-link">email@example.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="item-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <div>
+              <p class="item-title">Call Me</p>
+
+              <a href="tel:+1234567890" class="item-link">+91 XXXXX XXXXX</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div>
+              <p class="item-title">Location</p>
+
+              <address class="item-link">City, Country</address>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:email@example.com" class="footer-link">email@example.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">City — Country</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link" aria-label="Facebook">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link" aria-label="GitHub">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
