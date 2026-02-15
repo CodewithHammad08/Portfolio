@@ -1,10 +1,10 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/pfolio)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/pfolio?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/pfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/P-Auxj7aNfQ?style=social)](https://youtu.be/P-Auxj7aNfQ)
+![GitHub repo size](https://img.shields.io/github/repo-size/CodewithHammad08/Portfolio)
+![GitHub stars](https://img.shields.io/github/stars/CodewithHammad08/Portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/CodewithHammad08/Portfolio?style=social)
+
+
 
   <br />
   <br />
@@ -31,23 +31,23 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Pfolio** locally, run this command on your git bash:
+To run **Portfolio** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/pfolio.git
+sudo git clone https://github.com/CodewithHammad08/Portfolio.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/pfolio.git
+git clone https://github.com/CodewithHammad08/Portfolio.git
 ```
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact with me you can reach me at [Email](hammaddalvi08@gmail.com).
 
 ### License
 
